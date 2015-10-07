@@ -3,4 +3,6 @@
 int main ()
 {
 int a,b;
+printf("Multiplication is :%d",a+b);
+getch();
 }
