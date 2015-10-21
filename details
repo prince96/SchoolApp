@@ -6,7 +6,9 @@ struct student
     int roll;
 };
 void Display(struct student stu);
-int main(){
+int main()
+{
+    clrscr();
     struct student s1;
     printf("Enter student's name: ");
     scanf("%s",&s1.name);
